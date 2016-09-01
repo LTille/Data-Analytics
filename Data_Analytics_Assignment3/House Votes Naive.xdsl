@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Unnamed" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="Party" target="true">
+			<state id="democrat" />
+			<state id="republican" />
+			<probabilities>0.6135321100917431 0.3864678899082569</probabilities>
+		</cpt>
+		<cpt id="handicapped_infants">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.3818407960199005 0.03482587064676617 0.5833333333333334 0.7948717948717948 0.01972386587771203 0.185404339250493</probabilities>
+		</cpt>
+		<cpt id="water_project_cost_sharing">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.445273631840796 0.1057213930348259 0.4490049751243781 0.4339250493096646 0.1203155818540434 0.4457593688362919</probabilities>
+		</cpt>
+		<cpt id="adoption_of_the_budget_resolution">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.109452736318408 0.02736318407960199 0.8631840796019901 0.8422090729783036 0.02564102564102563 0.1321499013806706</probabilities>
+		</cpt>
+		<cpt id="physician_fee_freeze">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.9154228855721394 0.03109452736318408 0.05348258706467662 0.01380670611439842 0.01972386587771203 0.9664694280078896</probabilities>
+		</cpt>
+		<cpt id="el_salvador_aid">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.7475124378109453 0.04601990049751244 0.2064676616915423 0.04930966469428008 0.01972386587771203 0.9309664694280079</probabilities>
+		</cpt>
+		<cpt id="religious_groups_in_schools">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.5049751243781094 0.03482587064676617 0.4601990049751243 0.1025641025641026 0.01380670611439842 0.8836291913214991</probabilities>
+		</cpt>
+		<cpt id="nti_satellite_test_ban">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.2213930348258706 0.03109452736318408 0.7475124378109453 0.7297830374753451 0.03747534516765286 0.232741617357002</probabilities>
+		</cpt>
+		<cpt id="aid_to_nicaraguan_contras">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.1691542288557214 0.01616915422885572 0.8146766169154229 0.7889546351084812 0.0670611439842209 0.1439842209072978</probabilities>
+		</cpt>
+		<cpt id="mx_missile">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.2251243781094527 0.07213930348258706 0.7027363184079603 0.8658777120315581 0.01972386587771203 0.1143984220907298</probabilities>
+		</cpt>
+		<cpt id="immigration">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.5199004975124378 0.01616915422885572 0.4639303482587064 0.4339250493096646 0.01972386587771203 0.5463510848126233</probabilities>
+		</cpt>
+		<cpt id="synfuels_corporation_cutback">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.4713930348258706 0.04601990049751244 0.4825870646766169 0.8185404339250493 0.05522682445759369 0.126232741617357</probabilities>
+		</cpt>
+		<cpt id="education_spending">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.7960199004975125 0.06840796019900497 0.1355721393034826 0.1203155818540434 0.07889546351084813 0.8007889546351085</probabilities>
+		</cpt>
+		<cpt id="superfund_right_to_sue">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.6691542288557214 0.05721393034825871 0.2736318407960199 0.1321499013806706 0.0611439842209073 0.8067061143984221</probabilities>
+		</cpt>
+		<cpt id="crime">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.6243781094527363 0.03855721393034826 0.3370646766169154 0.01972386587771203 0.04339250493096647 0.9368836291913215</probabilities>
+		</cpt>
+		<cpt id="duty_free_exports">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.3407960199004975 0.06094527363184079 0.5982587064676617 0.8422090729783036 0.07297830374753452 0.08481262327416173</probabilities>
+		</cpt>
+		<cpt id="export_administration_act_sa">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.04601990049751244 0.3072139303482587 0.6467661691542289 0.2978303747534517 0.1321499013806706 0.5700197238658776</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5590.0" name="house_votes_84" faultnameformat="nodestate">
+			<node id="Party">
+				<name>Party</name>
+				<interior color="ffff80" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>167 17 239 65</position>
+			</node>
+			<node id="handicapped_infants">
+				<name>handicapped_infants</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>448 234 520 282</position>
+			</node>
+			<node id="water_project_cost_sharing">
+				<name>water_project_cost_sharing</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>431 288 503 336</position>
+			</node>
+			<node id="adoption_of_the_budget_resolution">
+				<name>adoption_of_the_budget_resolution</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>385 335 457 383</position>
+			</node>
+			<node id="physician_fee_freeze">
+				<name>physician_fee_freeze</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>315 366 387 414</position>
+			</node>
+			<node id="el_salvador_aid">
+				<name>el_salvador_aid</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 377 305 425</position>
+			</node>
+			<node id="religious_groups_in_schools">
+				<name>religious_groups_in_schools</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>151 366 223 414</position>
+			</node>
+			<node id="nti_satellite_test_ban">
+				<name>nti_satellite_test_ban</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>81 335 153 383</position>
+			</node>
+			<node id="aid_to_nicaraguan_contras">
+				<name>aid_to_nicaraguan_contras</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>35 288 107 336</position>
+			</node>
+			<node id="mx_missile">
+				<name>mx_missile</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>18 234 90 282</position>
+			</node>
+			<node id="immigration">
+				<name>immigration</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>35 180 107 228</position>
+			</node>
+			<node id="synfuels_corporation_cutback">
+				<name>synfuels_corporation_cutback</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>81 133 153 181</position>
+			</node>
+			<node id="education_spending">
+				<name>education_spending</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>166 201 238 249</position>
+			</node>
+			<node id="superfund_right_to_sue">
+				<name>superfund_right_to_sue</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 91 305 139</position>
+			</node>
+			<node id="crime">
+				<name>crime</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>315 102 387 150</position>
+			</node>
+			<node id="duty_free_exports">
+				<name>duty_free_exports</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>385 133 457 181</position>
+			</node>
+			<node id="export_administration_act_sa">
+				<name>export_administration_act_sa</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>431 180 503 228</position>
+			</node>
+			<textbox>
+				<caption>House Votes\nNaive Bayes algorithm</caption>
+				<font color="000000" name="Arial" size="12" bold="true" />
+				<position>317 23 488 61</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

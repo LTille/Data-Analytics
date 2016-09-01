@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Network5" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="Party">
+			<state id="democrat" />
+			<state id="republican" />
+			<probabilities>0.613793103448276 0.3862068965517242</probabilities>
+		</cpt>
+		<cpt id="adoption_of_the_budget_resolution">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.1097248134328358 0.02623600746268657 0.8640391791044776 0.8461538461538462 0.02366863905325444 0.1301775147928994</probabilities>
+		</cpt>
+		<cpt id="physician_fee_freeze">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.9176029962546817 0.0299625468164794 0.05243445692883895 0.0119047619047619 0.01785714285714286 0.9702380952380952</probabilities>
+		</cpt>
+		<cpt id="synfuels_corporation_cutback">
+			<state id="n" />
+			<state id="w" />
+			<state id="y" />
+			<parents>Party</parents>
+			<probabilities>0.4723128057193026 0.04483883105480999 0.4828483632258874 0.821836751236119 0.05341655183594066 0.1247466969279403</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5590.0" name="Network5" faultnameformat="nodestate">
+			<node id="Party">
+				<name>Party</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>32 17 104 65</position>
+			</node>
+			<node id="adoption_of_the_budget_resolution">
+				<name>adoption_of_the_budget_resolution</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 64 305 112</position>
+			</node>
+			<node id="physician_fee_freeze">
+				<name>physician_fee_freeze</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>164 126 236 174</position>
+			</node>
+			<node id="synfuels_corporation_cutback">
+				<name>synfuels_corporation_cutback</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>62 156 142 235</position>
+			</node>
+			<textbox>
+				<caption>House Votes\nManually-constructed model</caption>
+				<font color="000000" name="Arial" size="12" bold="true" />
+				<position>289 13 505 51</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
